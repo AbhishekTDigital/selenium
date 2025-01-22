@@ -3,12 +3,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+ <dependency>
   <groupId>ATNT_project</groupId>
   <artifactId>ATNT_project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
-  <name>ATNT_project</name>
-  <url>http://www.example.com</url>
+  <scope>compile</scope> <!-- Or another scope depending on your needs -->
+</dependency>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
