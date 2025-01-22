@@ -119,7 +119,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- Remove the self-referencing ATNT_project Dependency -->
+    <!-- REMOVE the self-referencing ATNT_project Dependency -->
     <!-- 
     <dependency>
       <groupId>ATNT_project</groupId>
