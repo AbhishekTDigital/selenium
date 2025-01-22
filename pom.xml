@@ -119,13 +119,15 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- ATNT_project Dependency -->
+    <!-- Remove the self-referencing ATNT_project Dependency -->
+    <!-- 
     <dependency>
       <groupId>ATNT_project</groupId>
       <artifactId>ATNT_project</artifactId>
       <version>0.0.1-SNAPSHOT</version>
-      <scope>compile</scope> <!-- Or another scope depending on your needs -->
+      <scope>compile</scope>
     </dependency>
+    -->
   </dependencies>
 
   <!-- Add this section if ATNT_project is stored in a private repository -->
